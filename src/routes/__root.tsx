@@ -82,7 +82,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "Ostreae è il progetto di Claudia Maggiani dedicato alla cultura dell'ostrica italiana: formazione, degustazioni e racconto dei territori del mare.",
       },
       { name: "author", content: "Claudia Maggiani" },
-      { property: "og:title", content: "Ostreae · Ogni ostrica ha una storia" },
+      { property: "og:title", content: "Ostreae · Claudia Maggiani — Oyster Sommelier" },
       {
         property: "og:description",
         content:
@@ -90,6 +90,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Ostreae · Claudia Maggiani — Oyster Sommelier" },
+      { name: "description", content: "Ostreæ Wonders is a WordPress website builder for showcasing projects, training, and events." },
+      { property: "og:description", content: "Ostreæ Wonders is a WordPress website builder for showcasing projects, training, and events." },
+      { name: "twitter:description", content: "Ostreæ Wonders is a WordPress website builder for showcasing projects, training, and events." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/6e080f9c-56ac-4ba3-9465-40dd6c641b1c/id-preview-61b670ef--1170c2f4-76e8-40b9-95ca-d26155435953.lovable.app-1783091439770.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/6e080f9c-56ac-4ba3-9465-40dd6c641b1c/id-preview-61b670ef--1170c2f4-76e8-40b9-95ca-d26155435953.lovable.app-1783091439770.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
