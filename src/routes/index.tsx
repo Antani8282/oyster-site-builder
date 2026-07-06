@@ -57,35 +57,11 @@ function Index() {
 
           <div className="lg:col-span-5">
             <div className="relative aspect-[4/5] border border-border">
-              <div className="absolute inset-0 flex items-center justify-center p-10">
-                <svg viewBox="0 0 200 200" className="w-full h-full text-primary opacity-90">
-                  <circle cx="100" cy="70" r="45" fill="none" stroke="currentColor" strokeWidth="0.8" />
-                  <path
-                    d="M55 130 Q100 90 145 130 Q100 175 55 130 Z"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="0.8"
-                  />
-                  <path
-                    d="M65 130 Q100 100 135 130"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="0.5"
-                    opacity="0.6"
-                  />
-                  <text
-                    x="100"
-                    y="195"
-                    textAnchor="middle"
-                    fill="currentColor"
-                    fontSize="6"
-                    letterSpacing="4"
-                    fontFamily="Montserrat"
-                  >
-                    OYSTER SOMMELIER
-                  </text>
-                </svg>
-              </div>
+              <img
+                src={logoAsset.url}
+                alt="Ostreae by Claudia Maggiani"
+                className="absolute inset-0 w-full h-full object-contain p-6"
+              />
               <div className="absolute top-4 left-4 text-[0.6rem] tracking-[0.3em] uppercase text-primary">
                 Marchio
               </div>
