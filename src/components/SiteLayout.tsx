@@ -81,7 +81,11 @@ export function SiteLayout({ children }: { children?: ReactNode }) {
       <footer className="mt-24 border-t border-border">
         <div className="max-w-7xl mx-auto px-6 lg:px-10 py-16 grid gap-10 md:grid-cols-3">
           <div>
-            <div className="font-display text-2xl tracking-[0.25em] text-primary">OSTREAE</div>
+            <img
+              src={logoAsset.url}
+              alt="Ostreae by Claudia Maggiani"
+              className="h-12 w-auto object-contain"
+            />
             <p className="mt-4 text-sm text-muted-foreground leading-relaxed max-w-xs">
               Ogni ostrica ha una storia. Noi siamo qui per raccontarla.
             </p>
