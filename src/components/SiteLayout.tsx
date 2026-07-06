@@ -18,11 +18,12 @@ export function SiteLayout({ children }: { children?: ReactNode }) {
     <div className="min-h-screen flex flex-col bg-background text-foreground">
       <header className="sticky top-0 z-40 backdrop-blur-md bg-background/80 border-b border-border">
         <div className="max-w-7xl mx-auto px-6 lg:px-10 h-20 flex items-center justify-between">
-          <Link to="/" className="flex items-center gap-3 group">
-            <span className="font-display text-2xl tracking-[0.25em] text-primary">OSTREAE</span>
-            <span className="hidden sm:block text-[0.6rem] tracking-[0.3em] uppercase text-muted-foreground border-l border-border pl-3">
-              by Claudia Maggiani
-            </span>
+          <Link to="/" className="flex items-center group">
+            <img
+              src={logoAsset.url}
+              alt="Ostreae by Claudia Maggiani"
+              className="h-10 w-auto object-contain"
+            />
           </Link>
 
           <nav className="hidden lg:flex items-center gap-9">
