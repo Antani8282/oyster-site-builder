@@ -28,7 +28,7 @@ function Index() {
         />
         <div className="relative max-w-7xl mx-auto px-6 lg:px-10 pt-28 pb-32 grid lg:grid-cols-12 gap-16 items-center">
           <div className="lg:col-span-7">
-            <div className="eyebrow">Ostreae · Volume 01</div>
+            
             <h1 className="mt-6 font-display text-6xl md:text-8xl leading-[0.95] text-foreground">
               Ogni ostrica<br />
               <em className="text-primary not-italic font-normal">ha una storia.</em>
