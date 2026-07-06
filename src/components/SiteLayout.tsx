@@ -1,5 +1,6 @@
 import { Link, Outlet, useRouterState } from "@tanstack/react-router";
 import { useState, type ReactNode } from "react";
+import logoAsset from "@/assets/ostreae-logo.png.asset.json";
 
 const NAV = [
   { to: "/", label: "Chi Sono" },
