@@ -87,9 +87,9 @@ export function SiteLayout({ children }: { children?: ReactNode }) {
           <div>
             <div className="eyebrow">Contatti</div>
             <ul className="mt-4 space-y-2 text-sm text-foreground/80">
-              <li>info@ostreae.it</li>
-              <li>www.ostreae.it</li>
-              <li>@ostreae_oystersommelier</li>
+              <li>info@ostreae.com</li>
+              <li>www.ostreae.com</li>
+              <li>@_ostreae</li>
             </ul>
           </div>
           <div>
