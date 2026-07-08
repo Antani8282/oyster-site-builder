@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import logoAsset from "@/assets/ostreae-logo.png.asset.json";
+
 import { SiteLayout } from "@/components/SiteLayout";
 
 export const Route = createFileRoute("/")({
@@ -56,12 +56,16 @@ function Index() {
           </div>
 
           <div className="lg:col-span-5">
-            <div className="relative aspect-[4/5] border border-border">
-              <img
-                src={logoAsset.url}
-                alt="Ostreae by Claudia Maggiani"
-                className="absolute inset-0 w-full h-full object-contain p-6"
-              />
+            <div className="relative aspect-[4/5] border border-border bg-surface flex items-center justify-center overflow-hidden">
+              <svg viewBox="0 0 200 250" className="w-2/3 h-2/3 text-primary" fill="none" stroke="currentColor" strokeWidth="1">
+                <path d="M100 40 A40 40 0 1 0 140 80" />
+                <ellipse cx="100" cy="160" rx="55" ry="35" />
+                <path d="M55 160 Q100 130 145 160" />
+                <path d="M55 160 Q100 190 145 160" />
+              </svg>
+              <div className="absolute bottom-6 left-0 right-0 text-center text-[0.6rem] tracking-[0.4em] uppercase text-primary">
+                Oyster Sommelier
+              </div>
               <div className="absolute top-4 left-4 text-[0.6rem] tracking-[0.3em] uppercase text-primary">
                 Marchio
               </div>
